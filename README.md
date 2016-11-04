@@ -1,5 +1,5 @@
 # sync-mq
-Synchronize CSS and JS media queries.
+Synchronize CSS and JS media queries execution.
 
 Dependencies:
   * Enquire.js: http://wicky.nillia.ms/enquire.js/
