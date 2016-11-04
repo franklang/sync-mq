@@ -1,0 +1,14 @@
+// Sync MQ by Frank LANG
+// Live demo: https://jsfiddle.net/frontenddeveloper/ws54xrhr/20/
+
+// SCSS dependencies: Bootstrap 3 media queries breakpoints variables
+// https://github.com/twbs/bootstrap-sass/blob/3.3-stable/assets/stylesheets/bootstrap/_variables.scss#L286
+
+// Sync MQ media queries aliases
+$bpMobile: "(max-width: #{$screen-sm-max})";
+$bpSmartphone: "(max-width: #{$screen-xs-max})";
+$bpTablet: "(min-width: #{$screen-sm-min}) and (max-width: #{$screen-sm-max})";
+$bpTabletUp: "(min-width: #{$screen-sm-min})";
+$bpDesktop: "(min-width: #{$screen-md-min})";
+$bpSmallDesktop: "(min-width: #{$screen-md-min}) and (max-width: #{$screen-md-max})";
+$bpLargeDesktop: "(min-width: #{$screen-lg-min})";
