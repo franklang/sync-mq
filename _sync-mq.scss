@@ -12,3 +12,11 @@ $bpTabletUp: "(min-width: #{$screen-sm-min})";
 $bpDesktop: "(min-width: #{$screen-md-min})";
 $bpSmallDesktop: "(min-width: #{$screen-md-min}) and (max-width: #{$screen-md-max})";
 $bpLargeDesktop: "(min-width: #{$screen-lg-min})";
+
+@media #{$bpMobile} {}
+@media #{$bpSmartphone} {}
+@media #{$bpTablet} {}
+@media #{$bpTabletUp} {}
+@media #{$bpDesktop} {}
+@media #{$bpSmallDesktop} {}
+@media #{$bpLargeDesktop} {}
