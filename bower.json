@@ -1,6 +1,10 @@
 {
   "name": "sync-mq",
   "description": "Synchronize CSS and JS media queries execution.",
+  "main": [
+    "_mediaqueries.scss",
+    "mediaqueries.js"
+  ],
   "dependencies": {
     "enquire": "^2.1.2",
     "bootstrap-sass": "^3.3.7"
@@ -18,5 +22,14 @@
   ],
   "authors": {
     "Frank LANG"
-  }
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": false
 }
