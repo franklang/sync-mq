@@ -1,6 +1,10 @@
 {
   "name": "sync-mq",
   "description": "Synchronize CSS and JS media queries execution.",
+  "dependencies": {
+    "enquire": "^2.1.2",
+    "bootstrap-sass": "^3.3.7"
+  },
   "keywords": [
     "media queries",
     "css",
@@ -12,7 +16,7 @@
     "bootstrap",
     "enquire"
   ],
-  "dependencies": {
-    "enquire": "^2.1.2"
+  "authors": {
+    "Frank LANG"
   }
 }
