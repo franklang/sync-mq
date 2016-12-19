@@ -20,9 +20,9 @@
     "bootstrap",
     "enquire"
   ],
-  "authors": {
+  "authors": [
     "Frank LANG"
-  },
+  ],
   "license": "MIT",
   "ignore": [
     "**/.*",
